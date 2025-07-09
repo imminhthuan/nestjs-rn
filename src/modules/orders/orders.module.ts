@@ -9,4 +9,4 @@ import { Order, OrderSchema } from './schemas/order.schema';
     controllers: [OrdersController],
     providers: [OrdersService],
 })
-export class ordersModule { }
+export class OrdersModule { }

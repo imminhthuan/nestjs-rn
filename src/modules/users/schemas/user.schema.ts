@@ -23,14 +23,14 @@ export class User {
   @Prop()
   image: string;
 
-  @Prop()
+  @Prop({ default: "LOCAL" })
   accountType: string;
 
-  @Prop()
+  @Prop({ default: "USERS" })
   role: string;
 
-  @Prop()
-  isActive: string;
+  @Prop({ default: false })
+  isActive: Boolean;
 
   @Prop()
   codeId: string;

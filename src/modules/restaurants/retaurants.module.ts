@@ -1,5 +1,5 @@
 import { Module } from '@nestjs/common';
-import { RetaurantsService } from './Retaurants.service';
+import { RetaurantsService } from './retaurants.service';
 import { RetaurantsController } from './retaurants.controller';
 import { MongooseModule } from '@nestjs/mongoose';
 import { Retaurant, RetaurantSchema } from './schemas/retaurant.schema';

@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { CreateRetaurantDto } from './dto/create-Retaurant.dto';
 import { UpdateRetaurantDto } from './dto/update-Retaurant.dto';
 
-@Injectable()
+@Injectable()   
 export class RetaurantsService {
     create(createRetaurantDto: CreateRetaurantDto) {
         return 'This action adds a new Retaurant';
